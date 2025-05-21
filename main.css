@@ -1,0 +1,105 @@
+body {
+    background-image: linear-gradient(to left, #4E896D 73%, white 25%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    all: unset;
+    color: white;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+p {
+    color: white;
+}
+
+
+.header_list {
+    display: flex;
+    gap: 30px;
+    font-size: 28px;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0.8px;
+    margin-right: 40px;
+}
+
+.translator_icon {
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+main {
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.img_main {
+    width: 40%;
+    margin-left: 92px;
+}
+
+.translate {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 48px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    margin-top: 230px;
+    margin-left: 50px;
+
+}
+
+.text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    line-height: 2.3;
+    letter-spacing: 4px;
+    font-weight: 400px;
+    margin-left: 50px
+}
+
+.try {
+    border: none;
+    padding:30px 25px;
+    color: #1B817F;
+    background-color: #F8F5F0;
+    border-radius: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.about_us {
+    border: none;
+    padding:30px 86px;
+    color: #F8F5F0;
+    background-color: #1B817F;
+    border-radius: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.buttons {
+    display: flex;
+    gap: 40px;
+    margin-left: 40px;
+}
+
+.relative {
+    position: relative;
+}
+
+.flowers {
+    position: absolute;
+    right: 1001px;
+    bottom: -445px
+}
