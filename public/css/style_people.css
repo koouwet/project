@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Nunito Sans';
-    src: url('/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf') format('ttf');
+    src: url('../css//NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf') format('ttf');
 }
 
 body {
