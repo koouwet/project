@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf') format('ttf');
+}
+
+body {
+    background-image: linear-gradient(to right, #4E896D, #94BCB3);
+    margin: 0 35px 0 35px;
+}
+/* -------------------------------------------ХЕДЕР------------------ */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.translate_img {
+    width: 50%;
+}
+
+a {
+    all: unset;
+    color: white;
+    cursor: pointer;
+    font-family: var(Nunito Sans);
+}
+
+h1 {
+    color: white;
+    font-family: var(Nunito Sans);
+}
+
+.journal_h1 {
+    font-size: 80px;
+    margin: 30px 0;
+}
+
+.header_list {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+.title {
+    font-size: 128px;
+    width: 868px;
+    line-height: 80px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 колонки одинаковой ширины */
+  grid-template-rows: repeat(9, auto);   /* 9 строк по высоте содержимого */
+  gap: 10px; /* расстояние между блоками (по желанию) */
+}
+.grid-container img {
+    width: 310px;
+    height: 310px;
+    border-radius: 20px;
+}
+.grid-container h1 {
+    font-size: 40px;
+    margin: 0 auto;
+    width: 310px;
+}
