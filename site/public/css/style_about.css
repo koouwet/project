@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf') format('ttf');
+}
+
+body {
+    background-image: linear-gradient(to right, #4E896D, #94BCB3);
+    margin: 0 40px 0 40px;
+}
+/* -------------------------------------------ХЕДЕР------------------ */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.translate_img {
+    width: 50%;
+}
+
+a {
+    all: unset;
+    color: white;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+.journal_h1 {
+    font-size: 80px;
+    margin: 30px 0;
+}
+
+.header_list {
+    display: flex;
+    gap: 30px;
+    font-size: 28px;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0.8px;
+}
+
+.translator_icon {
+    margin-top: 25px;
+}
+
+
+
+/* -----------------------main-------------------------------- */
+
+.big_icon {
+    margin-top: 162px;
+    margin-left: 430px;
+    margin-bottom: 230px;
+}
+
+
+/* ------------section 1---------- */
+
+h1 {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 750;
+    font-size: 90px;
+    letter-spacing: 0.8px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 0.8px;
+}
+
+.first_question {
+    display: flex;
+    align-items:baseline;
+    gap: 25px;
+    margin-left: 99px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+}
+
+.first_answer {
+    width: 1240px;
+    margin-left: 99px;
+    margin-bottom: 100px;
+}
+
+.white_background {
+    width: 1335px;
+    height: 606px;
+    background-color: white;
+    border-radius: 55px;
+    margin-left: 80px;
+    position: relative;
+    margin-bottom: 85px;
+}
+
+h3 {
+    padding-top: 50px;
+    padding-left:60px;
+    padding-bottom: 80px;
+    color: #035F50;
+    font-size: 40px;
+    line-height: 0.6;
+    letter-spacing: 0.8px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+li {
+    color: #035F50;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+ul {
+    padding-left: 100px;
+    width: 1200px;
+}
+
+.svg1 {
+    position: absolute;
+    left: 1238px;
+    top:0
+}
+
+.svg2 {
+    position: absolute;
+    left: 1297px;
+    top: 166px;
+}
+
+
+
+
+/* ----------2 section--------------------------- */
+
+.second_question {
+    display: flex;
+    gap: 30px;
+    margin-left: 99px;
+    align-items: center;
+}
+
+.second_answer {
+    margin-left: 99px;
+    margin-top: 25px;
+    width: 1135px;
+    margin-bottom: 130px;
+    position: relative;
+}
+
+.svg3 {
+    position: absolute;
+    left: 1080px;
+    top: -150px;
+    transform: rotate(30deg);
+}
+
+.svg4 {
+    position: absolute;
+    left: 1000px;
+    top: 240px;
+}
+
+.svg5 {
+    position: absolute;
+    left: 1100px;
+    top: 315px;
+}
+/* ------------ section 3 ------------------------- */
+
+.white {
+    color: white;
+}
+
+.third_question {
+    display: flex;
+    margin-left: 99px;
+    gap: 25px;
+    align-items: baseline;
+    margin-bottom: 80px;
+}
+
+.third_answer {
+    margin-bottom: 250px;
+    position: relative;
+}
+
+.svg6 {
+    position: absolute;
+    left: 1300px;
+    top:20px;
+}
+
+
+.svg7 {
+    position: absolute;
+    left: 1200px;
+    top: 120px;
+}
+
